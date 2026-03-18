@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: springboot-helloworld
-          image: springboot-helloworld:latest
+          image: ghcr.io/nagarjun427/springboot-helloworld:5e9071b36e08d3dd363de8e33e384902b516f21a
           ports:
             - containerPort: 8080
           livenessProbe:
